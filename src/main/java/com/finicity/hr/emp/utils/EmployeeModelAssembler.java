@@ -1,6 +1,6 @@
 package com.finicity.hr.emp.utils;
 
-import com.finicity.hr.emp.api.EmployeeControllerHateos;
+import com.finicity.hr.emp.controller.EmployeeControllerHateos;
 import com.finicity.hr.emp.model.Employee;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.RepresentationModelAssembler;

@@ -1,4 +1,4 @@
-package com.finicity.hr.emp.api;
+package com.finicity.hr.emp.controller;
 
 import com.finicity.hr.emp.exception.InvalidInputException;
 import com.finicity.hr.emp.model.Employee;
@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping(path="/api/employees")
+@RequestMapping("/h2/employees")
 @Slf4j
 public class EmployeeController {
 
@@ -76,5 +76,4 @@ public class EmployeeController {
         employeeService.deleteEmployee(employeeId);
         return ResponseEntity.ok(employeeId);
     }
-
 }

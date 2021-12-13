@@ -1,4 +1,4 @@
-package com.finicity.hr.emp.api;
+package com.finicity.hr.emp.controller;
 
 import com.finicity.hr.emp.exception.EmployeeNotFoundException;
 import com.finicity.hr.emp.exception.InvalidInputException;

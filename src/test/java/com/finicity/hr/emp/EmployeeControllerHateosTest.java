@@ -1,7 +1,7 @@
 package com.finicity.hr.emp;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.finicity.hr.emp.api.EmployeeControllerHateos;
+import com.finicity.hr.emp.controller.EmployeeControllerHateos;
 import com.finicity.hr.emp.model.Employee;
 import com.finicity.hr.emp.service.EmployeeService;
 import com.finicity.hr.emp.utils.EmployeeModelAssembler;

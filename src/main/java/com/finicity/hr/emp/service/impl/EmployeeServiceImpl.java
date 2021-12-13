@@ -3,6 +3,8 @@ package com.finicity.hr.emp.service.impl;
 import com.finicity.hr.emp.model.Employee;
 import com.finicity.hr.emp.repository.EmployeeRepository;
 import com.finicity.hr.emp.service.EmployeeService;
+import com.finicity.hr.emp.utils.Constants;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -36,6 +38,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     @Override
+    @org.springframework.transaction.annotation.Transactional(timeout = 30)
     public Employee saveUpdateEmployee(Employee employee) {
         return employeeRepository.save(employee);
     }
