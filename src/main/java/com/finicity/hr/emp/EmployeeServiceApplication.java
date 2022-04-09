@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 @EnableJpaRepositories("com.finicity.hr.emp.repository") 
 @EnableMongoRepositories("com.finicity.hr.emp.mongo.repository")
 public class EmployeeServiceApplication {
-
+    // Starting class
     public static void main(String[] args) {
         SpringApplication.run(EmployeeServiceApplication.class, args);
     }
